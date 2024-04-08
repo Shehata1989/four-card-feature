@@ -1,0 +1,143 @@
+/*! Fonts Google*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*! End Fonts Google*/
+/*! Global Rules*/
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa; }
+
+/*! End Global Rules*/
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  main header {
+    background-color: #fafafa;
+    text-align: center;
+    margin: 80px auto;
+    max-width: 550px; }
+    main header h1 {
+      color: #4c4e61;
+      margin: 0; }
+    main header p:first-child {
+      margin: 0;
+      font-size: 2rem;
+      color: #a3a5ae; }
+    main header p:last-child {
+      color: #a3a5ae; }
+  main .container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; }
+    @media (max-width: 767px) {
+      main .container {
+        flex-direction: column; } }
+    main .container .box-1 {
+      background-color: white;
+      width: calc(100% / 3 - 30px);
+      padding: 20px;
+      min-height: 250px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ddd;
+      position: relative; }
+      @media (max-width: 767px) {
+        main .container .box-1 {
+          width: 100%; } }
+      main .container .box-1 h2 {
+        margin: 0;
+        color: #4c4e61; }
+      main .container .box-1 p {
+        color: #a3a5ae; }
+      main .container .box-1 img {
+        position: absolute;
+        right: 20px;
+        bottom: 20px; }
+    main .container .box-2 {
+      background-color: white;
+      width: calc(100% / 3 - 30px);
+      padding: 20px;
+      min-height: 250px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ddd;
+      position: relative; }
+      @media (max-width: 767px) {
+        main .container .box-2 {
+          width: 100%; } }
+      main .container .box-2 h2 {
+        margin: 0;
+        color: #4c4e61; }
+      main .container .box-2 p {
+        color: #a3a5ae; }
+      main .container .box-2 img {
+        position: absolute;
+        right: 20px;
+        bottom: 20px; }
+    main .container .box-3 {
+      background-color: white;
+      width: calc(100% / 3 - 30px);
+      padding: 20px;
+      min-height: 250px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ddd;
+      position: relative; }
+      @media (max-width: 767px) {
+        main .container .box-3 {
+          width: 100%; } }
+      main .container .box-3 h2 {
+        margin: 0;
+        color: #4c4e61; }
+      main .container .box-3 p {
+        color: #a3a5ae; }
+      main .container .box-3 img {
+        position: absolute;
+        right: 20px;
+        bottom: 20px; }
+    main .container .box-4 {
+      background-color: white;
+      width: calc(100% / 3 - 30px);
+      padding: 20px;
+      min-height: 250px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ddd;
+      position: relative; }
+      @media (max-width: 767px) {
+        main .container .box-4 {
+          width: 100%; } }
+      main .container .box-4 h2 {
+        margin: 0;
+        color: #4c4e61; }
+      main .container .box-4 p {
+        color: #a3a5ae; }
+      main .container .box-4 img {
+        position: absolute;
+        right: 20px;
+        bottom: 20px; }
+    main .container .box-1 {
+      position: relative;
+      transform: translateY(50%);
+      border-top: 3px solid #45d3d3; }
+      @media (max-width: 767px) {
+        main .container .box-1 {
+          transform: translateY(0); } }
+    main .container .box-2 {
+      border-top: 3px solid #ea5353; }
+    main .container .box-3 {
+      position: relative;
+      transform: translateY(50%);
+      border-top: 3px solid #549ef2; }
+      @media (max-width: 767px) {
+        main .container .box-3 {
+          transform: translateY(0); } }
+    main .container .box-4 {
+      border-top: 3px solid #fcaf4a; }
+
+/*# sourceMappingURL=main.css.map */
